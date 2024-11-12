@@ -1,5 +1,5 @@
-# CareerApp
-Build your career
+# CareerApp - Build your career
+1. Deploy the application on EKS Cluster
 - Dockerize the application and pushed the image to dockerhub
 - Created EKS cluster
 - Deployed the application using deployment.yaml (Creating deployment with 2 replicasets and LoadBalancer service) through github actions
@@ -14,3 +14,11 @@ career-app-service   LoadBalancer   10.100.210.222   a49926dd2206c469480051cb605
 kubernetes           ClusterIP      10.100.0.1       <none>                                                                    443/TCP        25m
 ```
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/fc8b88ea-8302-4f6f-9a6b-8c29c46fb0f3">
+<br />
+<br />
+<br />
+<br />
+
+2. Deploy the application on ECS Cluster backed by Application Load Balancer.
+![image](https://github.com/user-attachments/assets/8ed10653-b559-4870-bd84-93ad216f10ce)
+
